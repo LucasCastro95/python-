@@ -1,0 +1,5 @@
+print("lucas"*50)
+print("Lucas"+" Castro ")
+
+a = "Lucas Castro"
+print(a[6])
