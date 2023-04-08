@@ -35,3 +35,16 @@ idade = 27
 dinheiro = 51.34
 print("{} tenho {} anos e tenho {} no bolso".format(nome,idade,dinheiro))
 print("{:12} tenho {:3} anos e tenho R$ {:5.2f}no bolso".format(nome,idade,dinheiro))
+dinheiro = 510.34
+texto_formatado = "{:5.2f}".format(dinheiro)
+print(texto_formatado)
+
+#test9
+numero = 510.34
+texto_formatado = "{:10.2f}".format(numero)
+print(texto_formatado)
+
+dinheiro = 510.34
+texto_formatado = "{:5.2f}".format(dinheiro)
+print(texto_formatado)
+
