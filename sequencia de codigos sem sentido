@@ -16,3 +16,11 @@ print("Lucas"+idade)
 
 #test5
 print("X" "="*10)
+
+
+#test6
+idade = 28
+print("[%d]"%idade)
+print("[%03d]"%idade)
+print("[%3d]" %idade)
+print("[%-3d]"%idade)
