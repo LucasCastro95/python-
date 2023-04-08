@@ -1,5 +1,14 @@
+#test1
 print("lucas"*50)
+
+#test2
 print("Lucas"+" Castro ")
 
+#test3
 a = "Lucas Castro"
 print(a[6])
+
+#test4
+nome = "Lucas"
+idade = "27"
+print("Lucas"+idade)
