@@ -24,3 +24,14 @@ print("[%d]"%idade)
 print("[%03d]"%idade)
 print("[%3d]" %idade)
 print("[%-3d]"%idade)
+
+#test7
+dinheiro  = 5
+print("%5.2f"%dinheiro)
+
+#test8
+nome = "lucas"
+idade = 27
+dinheiro = 51.34
+print("{} tenho {} anos e tenho {} no bolso".format(nome,idade,dinheiro))
+print("{:12} tenho {:3} anos e tenho R$ {:5.2f}no bolso".format(nome,idade,dinheiro))
