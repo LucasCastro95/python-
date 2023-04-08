@@ -12,3 +12,7 @@ print(a[6])
 nome = "Lucas"
 idade = "27"
 print("Lucas"+idade)
+
+
+#test5
+print("X" "="*10)
