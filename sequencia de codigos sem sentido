@@ -49,8 +49,8 @@ texto_formatado = "{:5.2f}".format(dinheiro)
 print(texto_formatado)
 
 #test10
-n= int(input("Digite um numero:"))
-a = n-1
-b = n+1
+n = int(input("Digite um numero:"))
+s = n-1
+a = n+1
 print("\nnumero digitado = {}\nSucessor = {}\nAntecessor = {:<2}".format(n,b,a))
 
