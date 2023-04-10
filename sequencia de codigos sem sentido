@@ -58,3 +58,20 @@ print("\nnumero digitado = {}\nSucessor = {}\nAntecessor = {:<2}".format(n,b,a))
 n= int(input("Digite um numero:"))
 print("\nnumero digitado = {}\nSucessor = {}\nAntecessor = {:<2}".format(n,(n+1),(n-1)))
 
+#test11
+n1 = int(input(" Digite um numero :"))
+dobro = n1*2
+triplo = n1*3
+raiz_quadrada = n1**(1/2)
+print("\ndobro de {} vale {}\ntriplo de {} vale {}\nraiz quadrada de {} vale  {:.2f}".format(n1,dobro,n1,triplo,n1,raiz_quadrada))
+
+ou 
+
+n1 = int(input(" Digite um numero :"))
+d = n1*2
+t= n1*3
+r = n1**(1/2)
+print("\ndobro de {} vale {}.\ntriplo de {} vale {}.".format(n1,d,t,n1))
+print("raiz quadrada de {} vale {:.2f}.".format(n1,r))
+
+
