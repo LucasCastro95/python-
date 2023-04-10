@@ -54,3 +54,7 @@ s = n-1
 a = n+1
 print("\nnumero digitado = {}\nSucessor = {}\nAntecessor = {:<2}".format(n,b,a))
 
+#se não precisar utilizar variaveis em futuramente
+n= int(input("Digite um numero:"))
+print("\nnumero digitado = {}\nSucessor = {}\nAntecessor = {:<2}".format(n,(n+1),(n-1)))
+
