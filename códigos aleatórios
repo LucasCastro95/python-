@@ -101,3 +101,29 @@ print("{} X {:2} = {}".format(num,13,(num*13)))
 print("{} X {:2} = {}".format(num,14,num*14))
 print("{} X {:2} = {}".format(num,15,num*15))
 print("-"*14)
+
+#test16
+divida = 0
+compra = 100
+divida = divida + compra
+compra = 200
+divida = divida + compra
+compra = 300
+divida = divida + compra
+compra = 0
+print(divida)
+
+#obs
+divida = 0
+compra = 100
+divida = divida + compra
+compra = 200
+divida = divida + compra
+compra = 300
+divida = divida + compra
+compra = 0
+
+divida = 100 # como nao foi adicionado a variavel divida = divida + soma, o resultado abaixo em print sera apresentado como 120 , pois para que o mesmo realiza se a soma de todos numeros precisaria ter adicionado divida + soma na variavel divida.
+compra = 20
+divida = divida + compra
+print(divida)
