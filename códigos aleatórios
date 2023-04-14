@@ -127,3 +127,11 @@ divida = 100 # como nao foi adicionado a variavel divida = divida + soma, o resu
 compra = 20
 divida = divida + compra
 print(divida)
+ 
+ 
+ #test17
+name = "lucas"
+print(f"lucas de Castro  = {len(name)}")
+print(f"lucas de castro = {name.count('s')}")
+print(f" lucas de castro = {'lucas' in name }")
+print(f" lucas de castro  :{name[0:5]}") 
