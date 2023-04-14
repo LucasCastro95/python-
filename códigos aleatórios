@@ -135,3 +135,8 @@ print(f"lucas de Castro  = {len(name)}")
 print(f"lucas de castro = {name.count('s')}")
 print(f" lucas de castro = {'lucas' in name }")
 print(f" lucas de castro  :{name[0:5]}") 
+
+#test17
+vogais = ["a","e","i","o","u"]
+for vogal in vogais:
+  print(f' posicao = {vogais.index(vogal)}, valor = {vogal}')
